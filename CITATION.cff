@@ -3,7 +3,7 @@ message: "If you use this software, please cite the article listed below."
 title: "Urban-to-Rural Road Centerline Extraction via Topology-Aware Learning and Graph-Node Semantic Link Correction"
 type: software
 license: MIT
-repository-code: "[REPOSITORY-URL]"
+repository-code: "https://github.com/wangfish0213/rural-road-topology-code-2026"
 authors:
   - family-names: "Wang"
     given-names: "Haitao"
