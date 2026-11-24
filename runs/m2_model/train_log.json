@@ -1,0 +1,47 @@
+{
+  "device": "cpu",
+  "epochs": 40,
+  "seed": 7,
+  "tasks": {
+    "link": {
+      "train_n": 17845,
+      "train_pos_rate": 0.16004483048472962,
+      "loss_first": 0.6290064180054294,
+      "loss_last": 0.3169664464166566,
+      "target_precision": 0.6,
+      "val": {
+        "thr": 0.95,
+        "precision": 0.6150234741784038,
+        "recall": 0.17146596858638743,
+        "f1": 0.26816786079836236,
+        "tp": 131,
+        "fp": 82,
+        "fn": 633,
+        "applied_rate": 0.024404216315307058,
+        "mode": "precision_constrained",
+        "target_precision": 0.6
+      },
+      "ckpt": "F:/e/科研/论文发表/第六篇论文/runs/m2_model\\link_net.pt"
+    },
+    "delete": {
+      "train_n": 12863,
+      "train_pos_rate": 0.69633833475861,
+      "loss_first": 0.6431973293420177,
+      "loss_last": 0.48802924384172214,
+      "target_precision": 0.9,
+      "val": {
+        "thr": 0.1,
+        "precision": 0.9044518908568693,
+        "recall": 0.9842675557407793,
+        "f1": 0.9426732525071095,
+        "tp": 9447,
+        "fp": 998,
+        "fn": 151,
+        "applied_rate": 0.9676672225310358,
+        "mode": "precision_constrained",
+        "target_precision": 0.9
+      },
+      "ckpt": "F:/e/科研/论文发表/第六篇论文/runs/m2_model\\delete_net.pt"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "e4_cons3",
+  "size": 192,
+  "radius": 3,
+  "test_limit": 40,
+  "seed": 7,
+  "line_dilate": 2,
+  "line_pos_weight": 8.0,
+  "lam": {
+    "excl": 0.2,
+    "dist": 0.2,
+    "linein": 0.2
+  },
+  "epoch": 6,
+  "n_images": 40,
+  "elapsed_s": 3.7
+}

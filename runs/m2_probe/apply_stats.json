@@ -1,0 +1,24 @@
+{
+  "tiles_processed_this_run": 200,
+  "tiles_skipped_existing": 0,
+  "png_total_in_out_dir": 200,
+  "thr_link": 0.95,
+  "thr_del": 0.1,
+  "pred_dir": "F:/e/科研/论文发表/第六篇论文/runs/m1_ori_e1b/pred",
+  "out_dir": "F:/e/科研/论文发表/第六篇论文/runs/m2_probe/pred",
+  "mean_per_tile": {
+    "link_cand": 110.35,
+    "link_applied": 0.915,
+    "del_cand": 111.415,
+    "del_applied": 110.035,
+    "px_before": 69270.5,
+    "px_after": 68117.595
+  },
+  "total": {
+    "link_cand": 22070,
+    "link_applied": 183,
+    "del_cand": 22283,
+    "del_applied": 22007
+  },
+  "elapsed_sec": 98.6
+}

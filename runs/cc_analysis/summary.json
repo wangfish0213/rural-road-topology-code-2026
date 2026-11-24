@@ -1,0 +1,395 @@
+{
+  "source": "tools/analyze_cc.py",
+  "n_images": 2608,
+  "n_rows": 7824,
+  "tol_px": 3,
+  "min_link_px": 30,
+  "gt_dir": "F:\\e\\科研\\论文发表\\第六篇论文\\datasets\\WHU-RRoad\\test",
+  "models": {
+    "baseline": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\e1_unet\\pred",
+    "m1": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\m1_ori_e1b\\pred",
+    "same_domain": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\e2_unet\\pred"
+  },
+  "by_model": {
+    "baseline": {
+      "n_images": 2608,
+      "n_gt": {
+        "mean": 1.9087423312883436,
+        "median": 2.0,
+        "total": 4978.0
+      },
+      "n_pred": {
+        "mean": 77.78604294478528,
+        "median": 67.0,
+        "total": 202866.0
+      },
+      "cc_ratio": {
+        "mean": 49.994798209416686,
+        "median": 39.0,
+        "total": 130386.43373015872
+      },
+      "n_isolated": {
+        "mean": 67.22124233128834,
+        "median": 59.0,
+        "total": 175313.0
+      },
+      "isolated_ratio": {
+        "mean": 0.8219862496863483,
+        "median": 0.875,
+        "total": 2143.7401391819963
+      },
+      "isolated_px_ratio": {
+        "mean": 0.3962213413881982,
+        "median": 0.33775915619230623,
+        "total": 1033.345258340421
+      },
+      "isolated_size_median": {
+        "mean": 69.26955521472392,
+        "median": 19.0,
+        "total": 180655.0
+      },
+      "isolated_short_lt50_ratio": {
+        "mean": 0.6270115506785848,
+        "median": 0.6410256410256411,
+        "total": 1635.2461241697492
+      },
+      "n_hit": {
+        "mean": 10.564800613496933,
+        "median": 8.0,
+        "total": 27553.0
+      },
+      "hit_size_median": {
+        "mean": 15912.921779141105,
+        "median": 450.75,
+        "total": 41500900.0
+      },
+      "pred_size_median": {
+        "mean": 342.85506134969324,
+        "median": 23.0,
+        "total": 894166.0
+      },
+      "pred_short_lt50_ratio": {
+        "mean": 0.5915579312355664,
+        "median": 0.6049901442058305,
+        "total": 1542.7830846623574
+      },
+      "coverage": {
+        "mean": 0.6527377181945738,
+        "median": 0.7105499109516882,
+        "total": 1702.3399690514486
+      },
+      "gt_covered_ratio": {
+        "mean": 0.9499390903915443,
+        "median": 1.0,
+        "total": 2477.4411477411477
+      },
+      "split_per_covered_gt": {
+        "mean": 4.013283456276171,
+        "median": 3.0,
+        "total": 10466.643253968254
+      },
+      "pred_px": {
+        "mean": 164863.5536809816,
+        "median": 109267.0,
+        "total": 429964148.0
+      },
+      "gt_px": {
+        "mean": 43142.26380368098,
+        "median": 26542.5,
+        "total": 112515024.0
+      }
+    },
+    "m1": {
+      "n_images": 2608,
+      "n_gt": {
+        "mean": 1.9087423312883436,
+        "median": 2.0,
+        "total": 4978.0
+      },
+      "n_pred": {
+        "mean": 142.33397239263803,
+        "median": 126.0,
+        "total": 371207.0
+      },
+      "cc_ratio": {
+        "mean": 93.01215140836499,
+        "median": 72.70833333333334,
+        "total": 242575.69087301588
+      },
+      "n_isolated": {
+        "mean": 122.3489263803681,
+        "median": 109.0,
+        "total": 319086.0
+      },
+      "isolated_ratio": {
+        "mean": 0.844782886032239,
+        "median": 0.896551724137931,
+        "total": 2203.1937667720795
+      },
+      "isolated_px_ratio": {
+        "mean": 0.44498809174138315,
+        "median": 0.42090017432772997,
+        "total": 1160.5289432615273
+      },
+      "isolated_size_median": {
+        "mean": 12.172354294478527,
+        "median": 9.0,
+        "total": 31745.5
+      },
+      "isolated_short_lt50_ratio": {
+        "mean": 0.7347717149907518,
+        "median": 0.7410714285714286,
+        "total": 1916.2846326958806
+      },
+      "n_hit": {
+        "mean": 19.98504601226994,
+        "median": 11.0,
+        "total": 52121.0
+      },
+      "hit_size_median": {
+        "mean": 2688.1434049079753,
+        "median": 54.0,
+        "total": 7010678.0
+      },
+      "pred_size_median": {
+        "mean": 37.13976226993865,
+        "median": 10.0,
+        "total": 96860.5
+      },
+      "pred_short_lt50_ratio": {
+        "mean": 0.7110570437730572,
+        "median": 0.7169811320754716,
+        "total": 1854.4367701601334
+      },
+      "coverage": {
+        "mean": 0.7326674801272322,
+        "median": 0.7927082502261443,
+        "total": 1910.7967881718214
+      },
+      "gt_covered_ratio": {
+        "mean": 0.9543675958073965,
+        "median": 1.0,
+        "total": 2488.99068986569
+      },
+      "split_per_covered_gt": {
+        "mean": 4.66989558988217,
+        "median": 3.0,
+        "total": 12179.087698412699
+      },
+      "pred_px": {
+        "mean": 81451.69746932515,
+        "median": 63949.0,
+        "total": 212426027.0
+      },
+      "gt_px": {
+        "mean": 43142.26380368098,
+        "median": 26542.5,
+        "total": 112515024.0
+      }
+    },
+    "same_domain": {
+      "n_images": 2608,
+      "n_gt": {
+        "mean": 1.9087423312883436,
+        "median": 2.0,
+        "total": 4978.0
+      },
+      "n_pred": {
+        "mean": 51.36503067484663,
+        "median": 38.0,
+        "total": 133960.0
+      },
+      "cc_ratio": {
+        "mean": 30.538919706528986,
+        "median": 23.0,
+        "total": 79645.5025946276
+      },
+      "n_isolated": {
+        "mean": 36.755751533742334,
+        "median": 29.0,
+        "total": 95859.0
+      },
+      "isolated_ratio": {
+        "mean": 0.693705756802505,
+        "median": 0.75,
+        "total": 1809.184613740933
+      },
+      "isolated_px_ratio": {
+        "mean": 0.34977794841673326,
+        "median": 0.29792644025184245,
+        "total": 912.2208894708403
+      },
+      "isolated_size_median": {
+        "mean": 107.18117331288343,
+        "median": 69.0,
+        "total": 279528.5
+      },
+      "isolated_short_lt50_ratio": {
+        "mean": 0.4111828254061917,
+        "median": 0.42857142857142855,
+        "total": 1072.364808659348
+      },
+      "n_hit": {
+        "mean": 14.609279141104295,
+        "median": 7.0,
+        "total": 38101.0
+      },
+      "hit_size_median": {
+        "mean": 2302.635736196319,
+        "median": 510.5,
+        "total": 6005274.0
+      },
+      "pred_size_median": {
+        "mean": 287.5818634969325,
+        "median": 97.0,
+        "total": 750013.5
+      },
+      "pred_short_lt50_ratio": {
+        "mean": 0.372380222699932,
+        "median": 0.38461538461538464,
+        "total": 971.1676208014227
+      },
+      "coverage": {
+        "mean": 0.5790990782028675,
+        "median": 0.6353976156696143,
+        "total": 1510.2903959530786
+      },
+      "gt_covered_ratio": {
+        "mean": 0.9335502389566807,
+        "median": 1.0,
+        "total": 2434.699023199023
+      },
+      "split_per_covered_gt": {
+        "mean": 5.78281645608141,
+        "median": 3.775,
+        "total": 15081.585317460318
+      },
+      "pred_px": {
+        "mean": 28474.76802147239,
+        "median": 25882.0,
+        "total": 74262195.0
+      },
+      "gt_px": {
+        "mean": 43142.26380368098,
+        "median": 26542.5,
+        "total": 112515024.0
+      }
+    }
+  },
+  "m1_vs_baseline": {
+    "cc_ratio": {
+      "baseline_mean": 49.994798209416686,
+      "m1_mean": 93.01215140836499,
+      "delta": 43.0173531989483
+    },
+    "n_pred": {
+      "baseline_mean": 77.78604294478528,
+      "m1_mean": 142.33397239263803,
+      "delta": 64.54792944785275
+    },
+    "n_isolated": {
+      "baseline_mean": 67.22124233128834,
+      "m1_mean": 122.3489263803681,
+      "delta": 55.12768404907976
+    },
+    "n_hit": {
+      "baseline_mean": 10.564800613496933,
+      "m1_mean": 19.98504601226994,
+      "delta": 9.420245398773007
+    },
+    "isolated_ratio": {
+      "baseline_mean": 0.8219862496863483,
+      "m1_mean": 0.844782886032239,
+      "delta": 0.022796636345890797
+    },
+    "isolated_px_ratio": {
+      "baseline_mean": 0.3962213413881982,
+      "m1_mean": 0.44498809174138315,
+      "delta": 0.04876675035318495
+    },
+    "isolated_size_median": {
+      "baseline_mean": 69.26955521472392,
+      "m1_mean": 12.172354294478527,
+      "delta": -57.0972009202454
+    },
+    "hit_size_median": {
+      "baseline_mean": 15912.921779141105,
+      "m1_mean": 2688.1434049079753,
+      "delta": -13224.77837423313
+    },
+    "pred_size_median": {
+      "baseline_mean": 342.85506134969324,
+      "m1_mean": 37.13976226993865,
+      "delta": -305.7152990797546
+    },
+    "pred_short_lt50_ratio": {
+      "baseline_mean": 0.5915579312355664,
+      "m1_mean": 0.7110570437730572,
+      "delta": 0.11949911253749079
+    },
+    "coverage": {
+      "baseline_mean": 0.6527377181945738,
+      "m1_mean": 0.7326674801272322,
+      "delta": 0.07992976193265833
+    },
+    "gt_covered_ratio": {
+      "baseline_mean": 0.9499390903915443,
+      "m1_mean": 0.9543675958073965,
+      "delta": 0.0044285054158521575
+    },
+    "split_per_covered_gt": {
+      "baseline_mean": 4.013283456276171,
+      "m1_mean": 4.66989558988217,
+      "delta": 0.6566121336059991
+    }
+  },
+  "attribution": {
+    "delta_n_pred": 64.54792944785275,
+    "delta_n_isolated": 55.12768404907976,
+    "isolated_share_of_increase": 0.8540581320058692,
+    "note": "孤立分量 = 与真值 3px 容差带零重叠的预测分量（未匹配分量）；因 WHU-RRoad 标注稀疏，不能一概等同为假阳性，可能含漏标真实道路。真路连通性须以断裂率/APLS（eval/metrics.py 图连通判据）为准，split_per_covered_gt 受分量总数影响，仅是辅助量，不等同于断裂率。"
+  },
+  "absolute_pixels": {
+    "baseline": {
+      "pred_px_mean": 164863.5536809816,
+      "pred_px_median": 109267.0,
+      "isolated_px_mean": 47383.092024539874,
+      "isolated_px_median": 33280.5,
+      "hit_px_mean": 117480.46165644172
+    },
+    "m1": {
+      "pred_px_mean": 81451.69746932515,
+      "pred_px_median": 63949.0,
+      "isolated_px_mean": 33206.378067484664,
+      "isolated_px_median": 24646.5,
+      "hit_px_mean": 48245.31940184049
+    },
+    "same_domain": {
+      "pred_px_mean": 28474.76802147239,
+      "pred_px_median": 25882.0,
+      "isolated_px_mean": 9462.9620398773,
+      "isolated_px_median": 7436.5,
+      "hit_px_mean": 19011.80598159509
+    },
+    "m1_vs_baseline": {
+      "pred_px_mean": {
+        "baseline": 164863.5536809816,
+        "m1": 81451.69746932515,
+        "delta": -83411.85621165644,
+        "rel_change": -0.5059447910061562
+      },
+      "isolated_px_mean": {
+        "baseline": 47383.092024539874,
+        "m1": 33206.378067484664,
+        "delta": -14176.71395705521,
+        "rel_change": -0.29919351716669396
+      },
+      "hit_px_mean": {
+        "baseline": 117480.46165644172,
+        "m1": 48245.31940184049,
+        "delta": -69235.14225460123,
+        "rel_change": -0.5893332497881354
+      }
+    }
+  }
+}

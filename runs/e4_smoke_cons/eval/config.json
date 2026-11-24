@@ -1,0 +1,15 @@
+{
+  "name": "e4_smoke_cons",
+  "size": 256,
+  "radius": 3,
+  "test_limit": 3,
+  "seed": 7,
+  "lam": {
+    "excl": 0.2,
+    "dist": 0.2,
+    "linein": 0.2
+  },
+  "epoch": 1,
+  "n_images": 3,
+  "elapsed_s": 1.6
+}

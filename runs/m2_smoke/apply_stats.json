@@ -1,0 +1,22 @@
+{
+  "tiles": 20,
+  "thr_link": 0.525,
+  "thr_del": 0.5,
+  "pred_dir": "F:/e/科研/论文发表/第六篇论文/runs/m1_ori_e1b/pred",
+  "out_dir": "F:/e/科研/论文发表/第六篇论文/runs/m2_smoke/pred20b",
+  "mean_per_tile": {
+    "link_cand": 102.55,
+    "link_applied": 29.8,
+    "del_cand": 110.05,
+    "del_applied": 9.85,
+    "px_before": 58858.05,
+    "px_after": 59571.95
+  },
+  "total": {
+    "link_cand": 2051,
+    "link_applied": 596,
+    "del_cand": 2201,
+    "del_applied": 197
+  },
+  "elapsed_sec": 29.6
+}

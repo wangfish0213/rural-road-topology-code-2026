@@ -1,0 +1,19 @@
+{
+  "name": "e4_v3_gt2_t030",
+  "kind": "threshold_recheck",
+  "source": "e4_v3_gt2",
+  "line_threshold": 0.3,
+  "size": 176,
+  "test_limit": 120,
+  "radius": 3,
+  "seed": 7,
+  "epoch": 6,
+  "n_images": 120,
+  "init": "runs/e4_v3_shared/last.pt",
+  "lam": {
+    "excl": 0.5,
+    "dist": 0.5,
+    "linein": 0.0
+  },
+  "elapsed_s": 12.3
+}

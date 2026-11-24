@@ -1,0 +1,17 @@
+{
+  "name": "e4_probe_v2",
+  "size": 256,
+  "radius": 3,
+  "test_limit": 5,
+  "seed": 7,
+  "line_dilate": 2,
+  "line_pos_weight": 8.0,
+  "lam": {
+    "excl": 0.0,
+    "dist": 0.0,
+    "linein": 0.0
+  },
+  "epoch": 2,
+  "n_images": 5,
+  "elapsed_s": 0.9
+}

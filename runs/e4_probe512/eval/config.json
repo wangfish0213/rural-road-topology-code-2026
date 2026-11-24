@@ -1,0 +1,15 @@
+{
+  "name": "e4_probe512",
+  "size": 512,
+  "radius": 3,
+  "test_limit": 2,
+  "seed": 7,
+  "lam": {
+    "excl": 0.0,
+    "dist": 0.0,
+    "linein": 0.0
+  },
+  "epoch": 1,
+  "n_images": 2,
+  "elapsed_s": 4.5
+}

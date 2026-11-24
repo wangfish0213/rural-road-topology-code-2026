@@ -1,0 +1,51 @@
+{
+  "generated_by": "tools/irsamap_prep.py",
+  "elapsed_s": 1.0,
+  "splits": {
+    "train": {
+      "n_input": 12,
+      "n_written": 12,
+      "n_skipped_existing": 0,
+      "n_missing_geojson": 0,
+      "n_empty_line": 0,
+      "n_failed": 0,
+      "n_features": 317,
+      "n_lines": 317,
+      "n_geom_skipped": 0,
+      "sum_line_px": 159185,
+      "n_e4_rows": 12,
+      "mean_line_px": 13265.4,
+      "line_width": 3
+    },
+    "val": {
+      "n_input": 12,
+      "n_written": 12,
+      "n_skipped_existing": 0,
+      "n_missing_geojson": 0,
+      "n_empty_line": 0,
+      "n_failed": 0,
+      "n_features": 442,
+      "n_lines": 442,
+      "n_geom_skipped": 0,
+      "sum_line_px": 194995,
+      "n_e4_rows": 12,
+      "mean_line_px": 16249.6,
+      "line_width": 3
+    },
+    "test": {
+      "n_input": 12,
+      "n_written": 12,
+      "n_skipped_existing": 0,
+      "n_missing_geojson": 0,
+      "n_empty_line": 0,
+      "n_failed": 0,
+      "n_features": 236,
+      "n_lines": 236,
+      "n_geom_skipped": 0,
+      "sum_line_px": 155953,
+      "n_e4_rows": 12,
+      "mean_line_px": 12996.1,
+      "line_width": 3
+    }
+  }
+}

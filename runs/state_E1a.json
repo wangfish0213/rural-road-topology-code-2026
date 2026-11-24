@@ -1,0 +1,18 @@
+{
+  "e1a_unet": {
+    "train_done": 30,
+    "train_target": 30,
+    "train_rc": 0,
+    "at": "2026-10-29 19:24:04"
+  },
+  "e1a_lraspp_mv3": {
+    "train_done": 30,
+    "train_target": 30,
+    "train_rc": 0,
+    "at": "2026-10-30 06:20:55",
+    "pred_n": 3000,
+    "pred_rc": 0,
+    "eval_rc": 0,
+    "eval_path": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\e1a_lraspp_mv3\\eval\\summary.csv"
+  }
+}

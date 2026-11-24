@@ -1,0 +1,17 @@
+﻿metric,mean,median
+building_iou,0.328292,0.314939
+building_f1,0.457664,0.478988
+roadarea_iou,0.037201,0.022013
+roadarea_f1,0.068307,0.043065
+line_iou,0.000000,0.000000
+line_f1,0.000000,0.000000
+line_line_f1,0.000000,0.000000
+line_apls,0.000000,0.000000
+line_connectivity,0.000000,0.000000
+line_breakage_rate,1.000000,1.000000
+line_false_connection_rate,0.000000,0.000000
+line_cc_ratio,0.000000,0.000000
+line_length_ratio,0.000000,0.000000
+excl_violation,0.501470,0.495588
+boundary_line_violation,0.000099,0.000000
+line_in_roadarea,0.000000,0.000000

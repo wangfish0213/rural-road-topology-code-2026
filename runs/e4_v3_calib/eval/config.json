@@ -1,0 +1,26 @@
+{
+  "name": "e4_v3_calib",
+  "size": 192,
+  "radius": 3,
+  "test_limit": 20,
+  "seed": 7,
+  "line_dilate": 2,
+  "anchor": "gt",
+  "posw": 3.0,
+  "posw_line": 6.0,
+  "line_pos_weight": 8.0,
+  "train_limit": 120,
+  "epochs": 6,
+  "lr": 0.002,
+  "batch": 8,
+  "base": 16,
+  "amp": false,
+  "lam": {
+    "excl": 0.0,
+    "dist": 0.0,
+    "linein": 0.0
+  },
+  "epoch": 6,
+  "n_images": 20,
+  "elapsed_s": 2.3
+}

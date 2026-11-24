@@ -1,0 +1,22 @@
+{
+  "name": "pp_thr030",
+  "kind": "threshold_diagnostic",
+  "source_variant": "pp_thr030",
+  "formula": "线带阈值 0.3",
+  "line_threshold": 0.3,
+  "matched_coverage": false,
+  "base_weights": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\e4_v3_base\\last.pt",
+  "size": 176,
+  "test_limit": 120,
+  "radius": 3,
+  "seed": 7,
+  "epoch": 6,
+  "n_images": 120,
+  "lam": {
+    "excl": null,
+    "dist": null,
+    "linein": null
+  },
+  "init": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\e4_v3_base\\last.pt",
+  "elapsed_s": 5.0
+}

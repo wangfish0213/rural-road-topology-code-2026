@@ -1,0 +1,15 @@
+{
+  "name": "e4_base",
+  "size": 384,
+  "radius": 3,
+  "test_limit": 50,
+  "seed": 7,
+  "lam": {
+    "excl": 0.0,
+    "dist": 0.0,
+    "linein": 0.0
+  },
+  "epoch": 6,
+  "n_images": 50,
+  "elapsed_s": 14.0
+}

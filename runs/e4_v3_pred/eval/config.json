@@ -1,0 +1,27 @@
+{
+  "name": "e4_v3_pred",
+  "size": 176,
+  "radius": 3,
+  "test_limit": 120,
+  "seed": 7,
+  "line_dilate": 2,
+  "anchor": "pred",
+  "posw": 3.0,
+  "posw_line": 6.0,
+  "line_pos_weight": 8.0,
+  "train_limit": 300,
+  "epochs": 6,
+  "lr": 0.001,
+  "batch": 8,
+  "base": 16,
+  "amp": false,
+  "init": "runs/e4_v3_shared/last.pt",
+  "lam": {
+    "excl": 0.5,
+    "dist": 0.5,
+    "linein": 0.0
+  },
+  "epoch": 6,
+  "n_images": 120,
+  "elapsed_s": 11.2
+}

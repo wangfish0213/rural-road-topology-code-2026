@@ -1,0 +1,24 @@
+{
+  "name": "e4_v3_probe_base",
+  "size": 192,
+  "radius": 3,
+  "test_limit": 20,
+  "seed": 7,
+  "line_dilate": 2,
+  "anchor": "gt",
+  "posw": 1.0,
+  "line_pos_weight": 8.0,
+  "train_limit": 120,
+  "epochs": 6,
+  "lr": 0.001,
+  "batch": 4,
+  "base": 16,
+  "lam": {
+    "excl": 0.0,
+    "dist": 0.0,
+    "linein": 0.0
+  },
+  "epoch": 6,
+  "n_images": 20,
+  "elapsed_s": 3.8
+}

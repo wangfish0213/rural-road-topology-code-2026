@@ -1,0 +1,352 @@
+{
+  "source": "tools/analyze_cc.py",
+  "n_images": 19,
+  "n_rows": 57,
+  "tol_px": 3,
+  "min_link_px": 30,
+  "gt_dir": "F:\\e\\科研\\论文发表\\第六篇论文\\datasets\\WHU-RRoad\\test",
+  "models": {
+    "baseline": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\e1_unet\\pred",
+    "m1": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\m1_ori_e1b\\pred",
+    "same_domain": "F:\\e\\科研\\论文发表\\第六篇论文\\runs\\e2_unet\\pred"
+  },
+  "by_model": {
+    "baseline": {
+      "n_images": 19,
+      "n_gt": {
+        "mean": 1.4736842105263157,
+        "median": 1.0,
+        "total": 28.0
+      },
+      "n_pred": {
+        "mean": 65.84210526315789,
+        "median": 67.0,
+        "total": 1251.0
+      },
+      "cc_ratio": {
+        "mean": 58.473684210526315,
+        "median": 65.0,
+        "total": 1111.0
+      },
+      "n_isolated": {
+        "mean": 59.36842105263158,
+        "median": 63.0,
+        "total": 1128.0
+      },
+      "isolated_ratio": {
+        "mean": 0.8877926523281287,
+        "median": 0.9375,
+        "total": 16.868060394234444
+      },
+      "isolated_px_ratio": {
+        "mean": 0.4256363029533853,
+        "median": 0.3866780595051796,
+        "total": 8.08708975611432
+      },
+      "isolated_size_median": {
+        "mean": 40.39473684210526,
+        "median": 22.0,
+        "total": 767.5
+      },
+      "isolated_short_lt50_ratio": {
+        "mean": 0.614569674525313,
+        "median": 0.6111111111111112,
+        "total": 11.676823815980946
+      },
+      "n_hit": {
+        "mean": 6.473684210526316,
+        "median": 5.0,
+        "total": 123.0
+      },
+      "hit_size_median": {
+        "mean": 68468.02631578948,
+        "median": 358.0,
+        "total": 1300892.5
+      },
+      "pred_size_median": {
+        "mean": 45.10526315789474,
+        "median": 30.5,
+        "total": 857.0
+      },
+      "pred_short_lt50_ratio": {
+        "mean": 0.5883921185158721,
+        "median": 0.5714285714285714,
+        "total": 11.17945025180157
+      },
+      "coverage": {
+        "mean": 0.652597743210979,
+        "median": 0.7442514677103719,
+        "total": 12.3993571210086
+      },
+      "gt_covered_ratio": {
+        "mean": 0.9298245614035087,
+        "median": 1.0,
+        "total": 17.666666666666664
+      },
+      "split_per_covered_gt": {
+        "mean": 3.6052631578947367,
+        "median": 2.0,
+        "total": 68.5
+      },
+      "pred_px": {
+        "mean": 270377.3157894737,
+        "median": 139908.0,
+        "total": 5137169.0
+      },
+      "gt_px": {
+        "mean": 22736.052631578947,
+        "median": 16815.0,
+        "total": 431985.0
+      }
+    },
+    "m1": {
+      "n_images": 19,
+      "n_gt": {
+        "mean": 1.4736842105263157,
+        "median": 1.0,
+        "total": 28.0
+      },
+      "n_pred": {
+        "mean": 147.78947368421052,
+        "median": 135.0,
+        "total": 2808.0
+      },
+      "cc_ratio": {
+        "mean": 132.2982456140351,
+        "median": 109.0,
+        "total": 2513.666666666667
+      },
+      "n_isolated": {
+        "mean": 137.42105263157896,
+        "median": 132.0,
+        "total": 2611.0
+      },
+      "isolated_ratio": {
+        "mean": 0.9096561187239116,
+        "median": 0.9466666666666667,
+        "total": 17.28346625575432
+      },
+      "isolated_px_ratio": {
+        "mean": 0.5651540512894657,
+        "median": 0.4834845909630247,
+        "total": 10.737926974499848
+      },
+      "isolated_size_median": {
+        "mean": 14.263157894736842,
+        "median": 11.0,
+        "total": 271.0
+      },
+      "isolated_short_lt50_ratio": {
+        "mean": 0.690578421520976,
+        "median": 0.7037037037037037,
+        "total": 13.120990008898545
+      },
+      "n_hit": {
+        "mean": 10.368421052631579,
+        "median": 7.0,
+        "total": 197.0
+      },
+      "hit_size_median": {
+        "mean": 6820.0526315789475,
+        "median": 372.0,
+        "total": 129581.0
+      },
+      "pred_size_median": {
+        "mean": 15.657894736842104,
+        "median": 11.0,
+        "total": 297.5
+      },
+      "pred_short_lt50_ratio": {
+        "mean": 0.6735192335506466,
+        "median": 0.6888888888888889,
+        "total": 12.796865437462285
+      },
+      "coverage": {
+        "mean": 0.682768471324222,
+        "median": 0.8276663405088063,
+        "total": 12.972600955160217
+      },
+      "gt_covered_ratio": {
+        "mean": 0.9649122807017543,
+        "median": 1.0,
+        "total": 18.333333333333332
+      },
+      "split_per_covered_gt": {
+        "mean": 3.8421052631578947,
+        "median": 2.0,
+        "total": 73.0
+      },
+      "pred_px": {
+        "mean": 60929.47368421053,
+        "median": 55721.0,
+        "total": 1157660.0
+      },
+      "gt_px": {
+        "mean": 22736.052631578947,
+        "median": 16815.0,
+        "total": 431985.0
+      }
+    },
+    "same_domain": {
+      "n_images": 19,
+      "n_gt": {
+        "mean": 1.4736842105263157,
+        "median": 1.0,
+        "total": 28.0
+      },
+      "n_pred": {
+        "mean": 38.73684210526316,
+        "median": 45.0,
+        "total": 736.0
+      },
+      "cc_ratio": {
+        "mean": 33.622807017543856,
+        "median": 24.5,
+        "total": 638.8333333333333
+      },
+      "n_isolated": {
+        "mean": 33.1578947368421,
+        "median": 32.0,
+        "total": 630.0
+      },
+      "isolated_ratio": {
+        "mean": 0.7905718929486482,
+        "median": 0.8367346938775511,
+        "total": 15.020865966024315
+      },
+      "isolated_px_ratio": {
+        "mean": 0.4245173083322303,
+        "median": 0.341708728529961,
+        "total": 8.065828858312376
+      },
+      "isolated_size_median": {
+        "mean": 146.6315789473684,
+        "median": 104.5,
+        "total": 2786.0
+      },
+      "isolated_short_lt50_ratio": {
+        "mean": 0.38359787070626433,
+        "median": 0.34146341463414637,
+        "total": 7.2883595434190225
+      },
+      "n_hit": {
+        "mean": 5.578947368421052,
+        "median": 3.0,
+        "total": 106.0
+      },
+      "hit_size_median": {
+        "mean": 4700.263157894737,
+        "median": 1157.0,
+        "total": 89305.0
+      },
+      "pred_size_median": {
+        "mean": 207.42105263157896,
+        "median": 143.0,
+        "total": 3941.0
+      },
+      "pred_short_lt50_ratio": {
+        "mean": 0.33202767582836495,
+        "median": 0.3111111111111111,
+        "total": 6.308525840738934
+      },
+      "coverage": {
+        "mean": 0.6468896934854168,
+        "median": 0.599239307614686,
+        "total": 12.290904176222918
+      },
+      "gt_covered_ratio": {
+        "mean": 0.9649122807017543,
+        "median": 1.0,
+        "total": 18.333333333333332
+      },
+      "split_per_covered_gt": {
+        "mean": 3.6315789473684212,
+        "median": 2.5,
+        "total": 69.0
+      },
+      "pred_px": {
+        "mean": 29042.157894736843,
+        "median": 26204.0,
+        "total": 551801.0
+      },
+      "gt_px": {
+        "mean": 22736.052631578947,
+        "median": 16815.0,
+        "total": 431985.0
+      }
+    }
+  },
+  "m1_vs_baseline": {
+    "cc_ratio": {
+      "baseline_mean": 58.473684210526315,
+      "m1_mean": 132.2982456140351,
+      "delta": 73.82456140350878
+    },
+    "n_pred": {
+      "baseline_mean": 65.84210526315789,
+      "m1_mean": 147.78947368421052,
+      "delta": 81.94736842105263
+    },
+    "n_isolated": {
+      "baseline_mean": 59.36842105263158,
+      "m1_mean": 137.42105263157896,
+      "delta": 78.05263157894737
+    },
+    "n_hit": {
+      "baseline_mean": 6.473684210526316,
+      "m1_mean": 10.368421052631579,
+      "delta": 3.894736842105263
+    },
+    "isolated_ratio": {
+      "baseline_mean": 0.8877926523281287,
+      "m1_mean": 0.9096561187239116,
+      "delta": 0.02186346639578296
+    },
+    "isolated_px_ratio": {
+      "baseline_mean": 0.4256363029533853,
+      "m1_mean": 0.5651540512894657,
+      "delta": 0.13951774833608044
+    },
+    "isolated_size_median": {
+      "baseline_mean": 40.39473684210526,
+      "m1_mean": 14.263157894736842,
+      "delta": -26.131578947368418
+    },
+    "hit_size_median": {
+      "baseline_mean": 68468.02631578948,
+      "m1_mean": 6820.0526315789475,
+      "delta": -61647.973684210534
+    },
+    "pred_size_median": {
+      "baseline_mean": 45.10526315789474,
+      "m1_mean": 15.657894736842104,
+      "delta": -29.447368421052637
+    },
+    "pred_short_lt50_ratio": {
+      "baseline_mean": 0.5883921185158721,
+      "m1_mean": 0.6735192335506466,
+      "delta": 0.08512711503477444
+    },
+    "coverage": {
+      "baseline_mean": 0.652597743210979,
+      "m1_mean": 0.682768471324222,
+      "delta": 0.03017072811324306
+    },
+    "gt_covered_ratio": {
+      "baseline_mean": 0.9298245614035087,
+      "m1_mean": 0.9649122807017543,
+      "delta": 0.03508771929824561
+    },
+    "split_per_covered_gt": {
+      "baseline_mean": 3.6052631578947367,
+      "m1_mean": 3.8421052631578947,
+      "delta": 0.23684210526315796
+    }
+  },
+  "attribution": {
+    "delta_n_pred": 81.94736842105263,
+    "delta_n_isolated": 78.05263157894737,
+    "isolated_share_of_increase": 0.9524727039177907,
+    "note": "孤立分量 = 与真值 3px 容差带零重叠的预测分量，属假阳性碎片；真路连通性须以断裂率/APLS（eval/metrics.py 图连通判据）为准，split_per_covered_gt 受分量总数影响，仅是辅助量，不等同于断裂率。"
+  }
+}

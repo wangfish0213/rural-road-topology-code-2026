@@ -1,0 +1,36 @@
+{
+  "seed": 7,
+  "tiles": 600,
+  "train_tiles": 480,
+  "val_tiles": 120,
+  "settings": {
+    "DS": 2,
+    "MAX_DIST": 40.0,
+    "MIN_COMP": 8,
+    "MAX_DEL_SIZE": 64,
+    "GT_TOL": 3,
+    "LINK_LABEL_THR": 0.8,
+    "cap_link": 50,
+    "cap_del": 40
+  },
+  "train_link": {
+    "n": 17845,
+    "pos": 2856,
+    "pos_rate": 0.16004483048472962
+  },
+  "train_delete": {
+    "n": 12863,
+    "pos": 8957,
+    "pos_rate": 0.69633833475861
+  },
+  "val_link": {
+    "n": 8728,
+    "pos": 764,
+    "pos_rate": 0.08753437213565536
+  },
+  "val_delete": {
+    "n": 10794,
+    "pos": 9598,
+    "pos_rate": 0.8891977024272744
+  }
+}

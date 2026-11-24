@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article listed below."
+title: "Urban-to-Rural Road Centerline Extraction via Topology-Aware Learning and Graph-Node Semantic Link Correction"
+type: software
+license: MIT
+repository-code: "[REPOSITORY-URL]"
+authors:
+  - family-names: "Wang"
+    given-names: "Haitao"
+    email: "541750045@qq.com"
+    orcid: "https://orcid.org/0009-0002-6723-7654"
+    affiliation: "Xi'an Peihua University, Xi'an 710125, China"
+  - family-names: "Xie"
+    given-names: "Guangyi"
+    email: "gyxie73@yeah.net"
+    affiliation: "Xi'an Peihua University, Xi'an 710125, China"
+  - family-names: "Chen"
+    given-names: "Jiaqi"
+    email: "2466717446@qq.com"
+    affiliation: "Xi'an Peihua University, Xi'an 710125, China"
+  - family-names: "Li"
+    given-names: "Sitong"
+    email: "2264464032@qq.com"
+    affiliation: "Xi'an Peihua University, Xi'an 710125, China"
+version: "1.0.0"
+date-released: "2026-11-13"
